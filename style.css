@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: bisque;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img{
+    max-width: 150px;
+    width: 100%;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar-nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 0 20px;
+}
