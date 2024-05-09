@@ -1,32 +1,42 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     background-color: bisque;
 }
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
 }
 
-.navbar-brand img{
+.navbar-brand img {
     max-width: 150px;
     width: 100%;
 }
 
-.navbar-nav{
+.navbar-nav {
     margin-left: auto;
 }
-.navbar-nav ul{
+.navbar-nav ul {
     display: flex;
     list-style: none;
 }
 
-.navbar-nav ul li a{
+.navbar-nav ul li a {
     color: black;
     text-decoration: none;
     padding: 0 20px;
 }
+
+#section-intro .section-intro-box {
+    max-width: 500px;
+    margin: auto;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
